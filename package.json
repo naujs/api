@@ -1,0 +1,36 @@
+{
+  "name": "@naujs/api",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "node_module/.bin/gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/naujs/api.git"
+  },
+  "author": "Tan Nguyen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/naujs/api/issues"
+  },
+  "homepage": "https://github.com/naujs/api#readme",
+  "optionalDependencies": {
+    "@naujs/gulp-tasks": "latest",
+    "@naujs/util": "latest",
+    "@naujs/active-record": "latest",
+    "@naujs/component": "latest"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "supertest": "^1.1.0"
+  },
+  "dependencies": {
+    "express": "^4.13.4",
+    "lodash": "^4.2.1"
+  }
+}
